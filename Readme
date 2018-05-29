@@ -1,0 +1,29 @@
+
+
+Project – MODEL A DSSS SYSTEM
+
+
+Basic Requirements:
+Linux Ubuntu -18.04.
+Netbeans EE
+
+Project Plan/ Summary:
+
+In First part of this project, we will focus on randomly generating the bit stream which will be random data of 1024 bits. Then converting this data to non-returning to zero digital wave form by converting 0s to -1.
+Next step would be to use a DSSS encoder whose main purpose would be to spread the data i.e. modulating the data using PN sequence by 256 chips. DSSS is direct-sequence spread spectrum technique which is used to reduce the overall interference of the signal. This spreading makes the overall signal makes the wideband channel noisier.
+After this step, DSSS demodulator is used to demodulate the modulated bits. To do this we are dispreading the data considering spreading sequence received at the receiver. This output will be then compared with our original data to check if they match.
+At the receiver we check if it is same or different. If the result is same, then the purpose of DSSS modulations is achieved, and signal is transmitted without interfering with another signal.
+
+
+SoftwareInstallations: 
+Installing Java 1.8
+
+
+References:
+
+https://en.wikipedia.org/wiki/Direct-sequence_spread_spectrum _	
+http://www.telecomabc.com/d/dsss.html
+https://en.wikipedia.org/wiki/Pseudorandom_noise 
+https://www.tutorialspoint.com/matlab/index.htm 
+
+
